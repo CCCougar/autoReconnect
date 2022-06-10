@@ -20,17 +20,17 @@
 
 ## 安装
 
-1. 
+1. 拉取本项目代码
 ```bash
-git clone 
-cd 
+git clone https://github.com/CCCougar/autoReconnect.git
+cd autoReconnect
 ```
 
 2. 在`autoauth.sh`中填入自己的校园网账户信息
 
 3. 在`crontab.conf`中输入正确的`whether_online.sh`路径
 
-4. 
+4. 注册定时任务
 
 ```bash
 crontab crontab.conf
